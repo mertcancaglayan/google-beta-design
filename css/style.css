@@ -1,0 +1,91 @@
+/* style body */
+body {
+    display: block;
+    margin: 8px;
+}
+
+/* style the input */
+
+input[type="submit" i] {
+    text-align: center;
+    padding: 1px 6px;
+    border-color:(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+/* style the container */
+
+.container {
+    text-align: center;
+}
+
+/* style second container */
+#second-container {
+    background-color: #EEEEEE;
+    margin: 0 5%;
+    width: 90%; /* Set the width to 90% */
+}
+
+/* style third container */
+#third-container {
+    margin: 2px 5%; /* Adjusted margin for spacing */
+    width: 90%; /* Set the width to 90% */
+}
+
+/* style card */
+
+#first-card {
+    background-color: #7EE5DA;
+    float: left;
+    width: 37%;
+    margin-right: 0.2%;
+    text-align: center;
+    height: 78px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+#second-card {
+    background-color: #70CCC2;
+    float: left;
+    margin-right: 0.2%;
+    width: 20%;
+    font-size: small;
+    height: 78px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+#third-card {
+    background-color: #62B3AA;
+    float: left;
+    width: 42.6%;
+    font-size: small;
+    text-align: center;
+    height: 78px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* style list */
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* style the footer */
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: small;
+}
+
+
